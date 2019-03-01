@@ -1,11 +1,11 @@
 {
-  "name": "nodebb-plugin-sso-oauth",
-  "version": "0.3.3",
-  "description": "NodeBB Generic OAuth SSO",
+  "name": "nodebb-plugin-sso-mastodonh",
+  "version": "0.0.1",
+  "description": "NodeBB Mastodon OAuth SSO",
   "main": "library.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/julianlam/nodebb-plugin-sso-oauth"
+    "url": "https://github.com/ffsit/nodebb-plugin-sso-mastodon"
   },
   "keywords": [
     "nodebb",
@@ -23,7 +23,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/julianlam/nodebb-plugin-sso-oauth/issues"
+    "url": "https://github.com/ffsit/nodebb-plugin-sso-mastodon/issues"
   },
   "readme": "",
   "readmeFilename": "README.md",
