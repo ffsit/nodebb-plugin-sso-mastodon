@@ -176,8 +176,10 @@
 
 		var profile = {};
 		profile.id = data.id;
-		profile.displayName = data.name;
+		profile.displayName = data.acct;
 		profile.emails = [{ value: data.acct + '@toot.turbo.chat' }];
+		if(data.moved != '' && !data.locked)
+            		return callback(new Error('Invalid Mastodon user (locked or moved)'));
 
 		// Do you want to automatically make somebody an admin? This line might help you do that...
 		// profile.isAdmin = data.isAdmin ? true : false;
