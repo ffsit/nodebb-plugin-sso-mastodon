@@ -177,7 +177,7 @@
 		var profile = {};
 		profile.id = data.id;
 		profile.displayName = data.name;
-		profile.emails = [{ value: data.email }];
+		profile.emails = [{ value: data.acct + '@toot.turbo.chat' }];
 
 		// Do you want to automatically make somebody an admin? This line might help you do that...
 		// profile.isAdmin = data.isAdmin ? true : false;
