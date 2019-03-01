@@ -48,7 +48,7 @@
 
 	const constants = Object.freeze({
 		type: 'oauth2',	// Either 'oauth' or 'oauth2'
-		name: 'bbs.turbo.chat',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
+		name: 'mastodon',	// Something unique to your OAuth provider in lowercase, like "github", or "nodebb"
 		oauth: {
 			requestTokenURL: '',
 			accessTokenURL: '',
