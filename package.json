@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-sso-mastodonh",
+  "name": "nodebb-plugin-sso-mastodon",
   "version": "0.0.1",
   "description": "NodeBB Mastodon OAuth SSO",
   "main": "library.js",
