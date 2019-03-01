@@ -63,6 +63,7 @@
 			clientSecret: nconf.get('oauth:secret'),	// don't change this line
 		},
 		userRoute: 'https://toot.turbo.chat/api/v1/accounts/verify_credentials',	// This is the address to your app's "user profile" API endpoint (expects JSON)
+		scope: 'read:accounts',
 	});
 
 	const OAuth = {};
