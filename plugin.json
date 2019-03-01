@@ -1,8 +1,8 @@
 {
-	"id": "nodebb-plugin-sso-oauth",
+	"id": "nodebb-plugin-sso-mastodon",
 	"name": "NodeBB OAuth SSO",
 	"description": "NodeBB Plugin that allows users to login/register via any configured OAuth provider.",
-	"url": "https://github.com/julianlam/nodebb-plugin-sso-oauth",
+	"url": "https://github.com/ffsit/nodebb-plugin-sso-mastodon",
 	"library": "./library.js",
 	"hooks": [
 		{ "hook": "static:user.delete", "method": "deleteUserData" },
